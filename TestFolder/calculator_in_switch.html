@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript">
+//var no=parseInt(prompt("Enter the no"));
+var num1=prompt("Enter the 1st no.");
+var num2=prompt("Enter the 2nd no.");
+var opr=prompt("Enter the operator +, -, *, /, % ");
+switch(opr)
+{
+    case "+":
+        var res=parseFloat(num1)+parseFloat(num2);
+        console.log(`${num1}+${num2}=${res}`);
+        break;
+
+        case "-":
+        var res=num1-num2;
+        console.log(`${num1}-${num2}=${res}`);
+        break;
+
+        case "*":
+        var res=num1*num2;
+        console.log(`${num1}*${num2}=${res}`);
+        break;
+
+        case "/":
+        var res= num1 /num2;
+        console.log(`${num1}/${num2}=${res}`);
+        break;
+
+        case "%":
+        var res=num1 % num2;
+        console.log(`${num1}%${num2}=${res}`);
+        break;
+    default:
+        console.log("Invalid Operator");
+}
+</script>
+</head>
+<body>
+
+</body>
+</html>
