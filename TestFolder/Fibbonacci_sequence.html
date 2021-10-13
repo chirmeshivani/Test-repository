@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript">
+function fibo(num)
+{
+    if(num<2)
+    {
+        return num;
+    }
+    else
+    {
+        return fibo(num-1) + fibo(num-2)
+    
+    }
+}
+
+const no=prompt("Enter the no");
+if(no<=0)
+{
+    console.log("Enter the positive no");
+}
+else{
+    for(var i=0;i<no;i++)
+    {
+        console.log(fibo(i));
+    }
+}
+</script>
+</head>
+<body>
+
+</body>
+</html>
